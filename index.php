@@ -10,6 +10,7 @@
     
     <!-- Boostrap 5-->
     <link rel = "stylesheet" href="assets/css/style.css">
+    <link rel = "stylesheet" href="assets/css/image.css">
 
     <!-- Boostrap Icon -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
@@ -18,8 +19,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
 
 </head>
-<body>
-<body class="bg-light text-dark" style="font-family: 'Kanit', sans-serif;">
+
+<body class=" text-dark">
 
     <div class="container p-5 text-center">
 
@@ -59,7 +60,7 @@
         <button type="submit" class="btn btn-warning btn-lg mt-3 mb-3" name= "login" value="login" style="background: gold;" required>LOGIN</button>
         </div>
 
-        <a href="reset-password.php" class="link-warning">Forgot Password</a>
+        <a href="reset-password.php" class="link-dark">Forgot Password</a>
 
         </form>
     </div>  
