@@ -21,7 +21,7 @@
 
     <div class="container p-5 text-center">
 
-        <img src="forgot2-removebg-preview.png" alt="" class="w-50 img-fluid mb-3">
+        <img src="/assets/img/forgot2-removebg-preview.png" alt="" class="w-50 img-fluid mb-3">
         <h1 class="text-center pb-3">
             OOPS!
         </h1>

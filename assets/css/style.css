@@ -10775,6 +10775,7 @@ textarea.form-control-lg {
   min-height: 100vh;
   margin-left: -15rem;
   transition: margin 0.25s ease-out;
+  -webkit-overflow-scrolling: touch;
 }
 
 #sidebar-wrapper .sidebar-heading {
