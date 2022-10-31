@@ -1,0 +1,3 @@
+﻿Student Number,Last Name,First Name,Middle Name,Gender,Age,Semester ID,School Year ID,Email,Phone,Status,Password,User Type
+0000-00,Admin,Admin,Admin,Male,20,1,2,loacapstone@gmail.com,,Active,admin123,Admin
+1431-18,Ong,Aimer Sherdan,Paras,Male,22,2,1,aimerong28@gmail.com,9999415173,Active,admin123,Student
