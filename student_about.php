@@ -19,24 +19,28 @@
             <button type="button" class="btn btn-warning btn-lg btn-block">Update Information</button>
             </div> -->
             <section class="content">
-        <div class="container-fluid opacity-75">
-            <!-- Small boxes (Stat box) -->
-            <div class="row my-auto">
+                <div class="container-fluid">
+                    <div class="row my-auto">
+                        <div class="container text-center ">
+                            <h1 class="mt-3">ABOUT US</h1>
 
+                            <img class="card-img-top img-fluid w-50" src="/assets/img/logo.png" alt="Card image cap" />
+                            <h2>Criminology Licensure Examination Reviewer</h2>
 
+                            <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa ex eaque ea. Ut eveniet, velit fugiat est provident, nam maxime ipsam non rerum perspiciatis corrupti cumque minima magni, in neque?</p>
+                            
+                        </div>
 
-            <div class="container text-center">
-            <h1 class="mt-3">ABOUT US</h1>
-            
-            <img class="card-img-top img-fluid w-50" src="/assets/img/logo.png" alt="Card image cap" />
-            <h2>Criminology Licensure Examination Reviewer</h2>
+                        <div class="container mt-4">
+                            <h2>MISSION</h2>
+                            <p class="lead">The Professional Regulation Commission is the instrument of the Filipino people in securing for the nation a reliable, trustworthy and progressive system of determining the competence of professionals by credible and valid licensure examinations and standards of professional practice that are globally recognized.</p>
+                            <h2>VISION</h2>
+                            <p class="lead">To deliberately, scientifically and consistently determine the competence of professionals through the provision of professional standards and judicious issuance of professional license.</p>
 
-            <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa ex eaque ea. Ut eveniet, velit fugiat est provident, nam maxime ipsam non rerum perspiciatis corrupti cumque minima magni, in neque?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum mollitia inventore eius illum aspernatur suscipit aut molestiae cupiditate amet? Molestias adipisci excepturi, vel nemo ut neque voluptas commodi aperiam veritatis aliquam nulla quibusdam asperiores fugiat deserunt perspiciatis eius soluta nisi.</p>
-        </div>
+                        </div>
+                    </div>
                 </div>
 
-
-    </section>
+            </section>
         </div>
-        </div>
+    </div>

@@ -1,6 +1,6 @@
 body {
     font-family: 'Kanit', sans-serif;
-    background: url('/assets/img/loginbackground.jpg');
+    background: url('/assets/img/loginbackground.png');
     background-attachment: fixed;
-    background-size: cover;
+    background-size: cover; 
   }

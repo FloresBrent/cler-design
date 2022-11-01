@@ -28,7 +28,6 @@
                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="student_team.php"><i class="fa-sharp fa-solid fa-people-group fa-lg"></i>Team</a>
                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="student_faq.php"><i class="fa-sharp fa-solid fa-circle-question fa-lg" style="padding : 3.5px"></i>FAQ</a>
 
-                    
                     <button type="button" class="btn btn-primary">Primary</button>
                     
                 </div>
@@ -41,32 +40,26 @@
                     <button class="btn btn-outline-light" id="sidebarToggle"><i class="bi bi-list"></i></button>
                     </div>
                 </nav>
-
-
                
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script>
-        window.addEventListener('DOMContentLoaded', event => {
-
-// Toggle the side navigation
-const sidebarToggle = document.body.querySelector('#sidebarToggle');
-if (sidebarToggle) {
-    // Uncomment Below to persist sidebar toggle between refreshes
-    // if (localStorage.getItem('sb|sidebar-toggle') === 'true') {
-    //     document.body.classList.toggle('sb-sidenav-toggled');
-    // }
-    sidebarToggle.addEventListener('click', event => {
-        event.preventDefault();
-        document.body.classList.toggle('sb-sidenav-toggled');
-        localStorage.setItem('sb|sidebar-toggle', document.body.classList.contains('sb-sidenav-toggled'));
-    });
-}
-
-});
-
-        
+            window.addEventListener("DOMContentLoaded", (event) => {
+                // Toggle the side navigation
+                const sidebarToggle = document.body.querySelector("#sidebarToggle");
+                if (sidebarToggle) {
+                    // Uncomment Below to persist sidebar toggle between refreshes
+                    // if (localStorage.getItem('sb|sidebar-toggle') === 'true') {
+                    //     document.body.classList.toggle('sb-sidenav-toggled');
+                    // }
+                    sidebarToggle.addEventListener("click", (event) => {
+                        event.preventDefault();
+                        document.body.classList.toggle("sb-sidenav-toggled");
+                        localStorage.setItem("sb|sidebar-toggle", document.body.classList.contains("sb-sidenav-toggled"));
+                    });
+                }
+            });
         </script>
-    </body>
+    
 </html>

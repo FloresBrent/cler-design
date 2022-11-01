@@ -18,8 +18,8 @@
             <div class="container text-center">
             <button type="button" class="btn btn-warning btn-lg btn-block">Update Information</button>
             </div> -->
-            <section class="content">
-        <div class="container-fluid opacity-75">
+            
+        <div class="container-fluid">
             <!-- Small boxes (Stat box) -->
             <div class="row my-auto">
 
@@ -87,6 +87,6 @@
                 </div>
 
 
-    </section>
         </div>
         </div>
+</div>

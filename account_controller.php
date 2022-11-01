@@ -1,5 +1,6 @@
 <?php
-// session_start();
+session_start();
+
 require "connection.php";
 
 $email = "";
@@ -43,3 +44,4 @@ if (isset($_POST['login'])) {
         $errors['email'] = "It looks like you're not yet a member! Please contact your Admin to register.";
     }
 }
+

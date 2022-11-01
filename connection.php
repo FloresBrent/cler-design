@@ -5,7 +5,7 @@
  $con = mysqli_connect("localhost", "root", "","cler");
 //  $con = mysqli_connect("mysql:host=sql308.epizy.com", "epiz_32825367", "4x0dobaoC5r","dbname=epiz_32825367_cler");
  $con -> set_charset("utf8");
- session_start(); 
+//  session_start(); 
 
  
  // Database configuration

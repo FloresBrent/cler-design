@@ -7,7 +7,6 @@
     margin-left: -15rem;
     transition: margin 0.25s ease-out;
     -webkit-overflow-scrolling: touch;
-    
   }
   
   #sidebar-wrapper .sidebar-heading {
@@ -17,14 +16,18 @@
   
   #sidebar-wrapper .list-group {
     width: 15rem;
+
+    
   }
   
   #page-content-wrapper {
-    min-width: 100vw;
+    min-width: 100%;
+
   }
   
   body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
     margin-left: 0;
+  
   }
   
   @media (min-width: 768px) {
